@@ -1,0 +1,9 @@
+package com.lizb.portfolio.domain.repository
+
+import com.lizb.portfolio.domain.entity.Introduction
+import org.springframework.data.jpa.repository.JpaRepository
+
+interface IntroductionRepository : JpaRepository<Introduction, Long> {
+
+
+}
